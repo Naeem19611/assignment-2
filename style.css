@@ -1,0 +1,198 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Header Area Nav Styles code start From Here */
+header {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img {
+    width: 5%;
+    margin-right: 5px;
+}
+
+.nav-left h3 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.trips {
+    color: #FF9209;
+}
+
+.nav-right ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-right ul li {
+    padding: 0px 20px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+a.active {
+    color: #FF9209;
+}
+
+/* Header Area Nav Styles code End From Here */
+
+/* Banner Area Code Starts From Here */
+
+.banner-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.background-gradient {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    z-index: 1;
+    border-radius: 16px;
+}
+
+.banner-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 40px;
+    z-index: -1;
+}
+
+.banner-content {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-content p {
+    width: 700px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.transparent-border {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+    margin-top: 270px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 70%;
+    height: 15%;
+}
+
+.transparent-content {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    gap: 20px;
+}
+
+.transparent-content input {
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.transparent-content input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.icon-divide {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-divide input {
+    padding-right: 25px;
+}
+
+.icon-divide svg {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    padding-right: 5px;
+}
+
+.btn-primary {
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+/* Banner Area Code End From Here */
