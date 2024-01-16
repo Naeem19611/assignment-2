@@ -1,73 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EasyGoTrips</title>
-    <!-- Fab Icon  -->
-    <link rel="shortcut icon" href="images/travel.png" type="image/x-icon">
-    <!-- Custom CSS Link -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
-    <header>
-        <!-- Nav Section Code Start -->
-        <nav class="nav-container">
-            <div class="nav-left">
-                <img src="images/travel.png" alt="">
-                <h3>EasyGo <span class="trips">Trips</span></h3>
-            </div>
-            <div class="nav-right">
-                <ul>
-                    <li><a href="" class="active">Home</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EasyGoTrips</title>
+        <!-- Fab Icon  -->
+        <link rel="shortcut icon" href="images/travel.png" type="image/x-icon">
+        <!-- Custom CSS Link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Responsive CSS Link -->
+        <link rel="stylesheet" href="responsive.css">
+        <!-- Font Awesome CDN Link -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <header class="hide">
+            <!-- Nav Section Code Start -->
+            <nav class="nav-container">
+                <div class="nav-left">
+                    <img src="images/travel.png" alt>
+                    <h3>EasyGo <span class="trips">Trips</span></h3>
+                </div>
+                <div class="nav-right">
+                    <ul>
+                        <li><a href class="active">Home</a></li>
+                        <li><a href>Packages</a></li>
+                        <li><a href>Testimonial</a></li>
+                        <li><a href>Blog</a></li>
+                        <li><a href>Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <!-- Nav Section Code End -->
-   
-    <main>
-        <!-- Banner Section Code Start -->
-        
-        <section class="banner-container">
-            <div class="banner-img">
-                <div class="background-gradient"></div>
-                <img src="images/Group 13 (1) (1).png" alt="">
-            </div>
-            <div class="banner-content">
-                <h1>Explore Your Travel</h1>
-                <p>Embark on a journey of discovery with 'Explore Your Travel.' Uncover new horizons, embrace different cultures, and create lasting memories.Let your wanderlust guide you as you explore the world's wonders. </p>
-            </div>
-            <div class="transparent-border">
-               <div class="transparent-content">
-                    <input type="text" placeholder="Where go">
-                    <div class="icon-divide">
-                        <input type="text" placeholder="When"> 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> 
-                    </div>
-                    <div class="icon-divide">
-                        <input type="text" placeholder="Select Type"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <main>
+            <!-- Banner Section Code Start -->
+
+            <section class="banner-container">
+                <div class="banner-img">
+                    <div class="background-gradient"></div>
+                    <img src="images/Group 13 (1) (1).png" alt>
+                </div>
+                <div class="banner-content">
+                    <h1>Explore Your Travel</h1>
+                    <p>Embark on a journey of discovery with
+                        'Explore Your Travel.' Uncover new horizons, embrace
+                        different cultures, and create lasting memories.Let your
+                        wanderlust guide you as you explore the world's wonders.
+                    </p>
+                </div>
+                <div class="transparent-border">
+                    <div class="transparent-content">
+                        <input type="text" placeholder="Where go">
+                        <div class="icon-divide">
+                            <input type="text" placeholder="When">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M19.5 8.25L12 15.75L4.5 8.25"
+                                    stroke="#131318" stroke-opacity="0.7"
+                                    stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
                             </svg>
-                    </div> 
-                    <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>  
-               </div>   
-            </div>
-        </section>
+                        </div>
+                        <div class="icon-divide">
+                            <input type="text" placeholder="Select Type"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M19.5 8.25L12 15.75L4.5 8.25"
+                                    stroke="#131318" stroke-opacity="0.7"
+                                    stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <button class="btn-primary"><i
+                                class="fa-solid fa-magnifying-glass"></i>Find
+                            Now</button>
+                    </div>
+                </div>
+            </section>
 
-        <!-- Banner Section Code End -->
-    </main>
+            <!-- Banner Section Code End -->
 
-    <footer>
-        
-    </footer>
-</body>
+            <!-- Popular Tour Section Code Start -->
+            <section class="popular-container">
+                <div class="popular-content">
+                    <div class="popular-left">
+                        <h1>Our Popular Tours</h1>
+                        <p>This carefully crafted itinerary combines the perfect
+                            blend of breathtaking landscapes, cultural
+                            treasures, and immersive experiences, ensuring a
+                            travel experience that will leave you with cherished
+                            memories.</p>
+                        <ul>
+                            <li>Marvel at the awe-inspiring natural beauty that
+                                has to offer. From lush landscapes to iconic
+                                landmarks</li>
+                            <li>Immerse yourself in the rich tapestry of
+                                cultural heritage. Our tour introduces you to
+                                the traditions, history, and local customs</li>
+                            <li> Whether you seek relaxation or crave adventure,
+                                our Popular Tour offers a perfect balance. Enjoy
+                                leisurely strolls through charming streets.</li>
+                        </ul>
+                        <p>Join us on our Popular Tour and let the magic of
+                            unfold before your eyes. Discover the extraordinary
+                            and create lasting memories on a journey that
+                            captures the essence of travel at its finest.
+                        </p>
+                        <button class="btn-primary left">Read More</button>
+                    </div>
+                    <div class="popular-right">
+                        <img src="images/Rectangle 4.png" alt>
+                    </div>
+                </div>
+            </section>
+            <!-- Popular Tour Section Code End -->
+
+            <!-- Image Gallery Section Code Start -->
+            <section class="gallery-container">
+                <div class="gallery-content">
+                    <div class="gallery-heading">
+                        <h1>Choose Your Destination</h1>
+                        <p>Embark on a journey of discovery as you Choose Your
+                            Destination. From captivating cities to pristine
+                            landscapes, our array of destinations offers a world
+                            of possibilities.</p>
+                    </div>
+                    <div class="gallery-images">
+                        <div class="grid-item"><img src="images/Rectangle 5.png"
+                                alt="Image 1"><span>Maldives</span></div>
+                        <div class="grid-item"><img src="images/Rectangle 8.png"
+                                alt="Image 2"><span>Indonesia</span></div>
+                        <div class="grid-item"><img src="images/Rectangle 6.png"
+                                alt="Image 3"><span>Srilanka</span></div>
+                        <div class="grid-item"><img src="images/Rectangle 7.png"
+                                alt="Image 4"><span>North America</span></div>
+                        <div class="grid-item"><img src="images/Rectangle 9.png"
+                                alt="Image 5"><span>Kashmir</span></div>
+                        <div class="grid-item"><img src="images/Rectangle 11.png"
+                                alt="Image 6"><span>Bangladesh</span></div>
+                        <div class="grid-item"><img src="images/Rectangle 10.png"
+                                alt="Image 7"><span>Bandarban</span></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Image Gallery Section Code End -->
+             
+            <!-- Card Section Code Start -->
+            <section class="card-container">
+                <div class="card-heading">
+                    <h1>Why Choose Us</h1>
+                    <p>Why choose us" is often used as a heading or a section in a website, marketing material, or business presentation to highlight the unique selling points or advantages of a product, service, or business.</p>
+                </div>
+                <div class="two-card">
+                    <div class="card-left">
+                       <img src="images/hotel.png" alt="">
+                       <h3>Handpicked Hotels</h3>
+                       <p>Discover a curated selection of exceptional hotels, meticulously chosen to redefine your travel experience</p>
+                    </div>
+                    <div class="card-right">
+                        <img src="images/elearning.png" alt="">
+                        <h3>World Class Service</h3>
+                        <p>At EasyGoTrips, we redefine the meaning of hospitality with our unwavering commitment to providing world-class service.</p>
+                    </div>
+                </div>
+                <div class="card-bottom"> 
+                    <img src="images/badge.png" alt="">
+                    <h3>Best Price Guarantee</h3>
+                    <p>At EasyGoTrips, we understand the importance of finding the best value for your travel investment. </p>
+                </div>
+            </section>
+             <!-- Card Section Code End -->
+             
+             <!-- Deals Section Code Start -->
+             <section class="deals-container">
+                <div class="deals-heading">
+                    <h1>Why Choose Us</h1>
+                    <p>Why choose us" is often used as a heading or a section in a website, marketing material, or business presentation to highlight the unique selling points or advantages of a product, service, or business.</p>
+                </div>
+             </section>
+              <!-- Deals Section Code End -->
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
 </html>
